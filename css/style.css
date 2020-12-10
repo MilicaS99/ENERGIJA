@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(32, 32, 32, 0.74);
+    font-weight: 200;
+    font-family: serif;
+    margin-bottom: 3px;
+}
+.navbar{
+    background-color: rgba(245, 245, 245, 0.842);
+    font-family: serif;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar ul li{
+    font-family: serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+
+.navbar a:hover{
+    text-decoration: underline;
+    font-size: xx-large;
+    transition: 0.5;
+    color: rgba(204, 158, 43, 0.801);
+}
+
+.navbar ul {
+    height: 7em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+footer{
+    height: 1fr;
+    width: 100%;
+    background-color: rgba(153, 143, 143, 0.541);
+    padding: 15px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    font-family: serif;
+    justify-items: start;
+    align-items: start;
+    font-size: large;
+    font-weight: 300;
+    color: rgba(32, 32, 32, 0.925);
+   
+}
+
+
+
+#o1,#o2, #o3{
+    justify-self: start;
+    align-self: center;
+}
+
+.dugme{
+    border-radius: 6px;
+    border: none;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 7px;
+    background-color: rgb(73, 73, 73);
+    color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+}
+
+button:focus, button:active{
+    outline: none;
+    border: none;
+}
+
+.dugme:hover{
+    transition: 0,5s;
+    font-size: large;
+    background-color: rgba(73, 73, 73, 0.377);
+}
+
+#textPolje {
+    padding: 7px;
+    border: 1px rgb(73, 73, 73) solid;
+    border-radius: 6px;
+}
+
+.nasloviFuter{
+    font-weight: 520;
+    color: rgba(32, 32, 32, 0.979);
+}
+
+footer img{
+    size: 10px;
+}
+
+
+#pratioci ul li{
+    padding: 5px;
+    list-style-type: none;
+    display: inline;
+}
+
+#logo{
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.linkovi{
+    border-radius: 8px;
+}
+
+#kontakt1, #obavestenja, #pratioci{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% auto 20%;
+    justify-items: center;
+    align-items: start;
+    padding: 5px;
+}
+
+#listaKontakt ul{
+    list-style-type: none;
+}
+
+#listaKontakt ul li{
+    padding: 5px;
+}
+
+#lokacija{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% auto;
+    justify-items: center;
+    align-items: start;
+    padding: 5px;
+}
+
+#copyright{
+    padding: 5px;
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+    font-size: large;
+    font-family: sans-serif;
+    color:  white;
+}
+

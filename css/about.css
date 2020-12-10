@@ -1,0 +1,85 @@
+#about a{
+    color: rgba(204, 158, 43, 0.801);
+    margin-bottom: 0px;
+}
+
+#about{
+    border-bottom: 3px rgba(204, 158, 43, 0.801) solid;
+}
+
+#about a:hover{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.sve{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* DUNJA */
+
+.sve{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 10px 50px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.slika img{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+}
+
+#ponuda h2{
+    margin-bottom: 0px;
+    font-family: serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(156, 136, 136);
+}
+#ponuda p{
+    margin: 10px;
+    font-family: serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(151, 133, 133);
+
+}
+.opis{
+    color: rgb(143, 127, 127);
+    font-family: serif;
+    font-size: 1em;
+    margin: 20px;
+    text-align:center;
+    
+    
+    
+}
+.opis h4{
+    font-size: 1.3em;
+}
+.box {
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+.sve{
+    height: 2500px;
+    padding: 20px;
+    background-color: rgba(255, 226, 173, 0.308);
+    /* background-color: rgba(245, 245, 245, 0.842); */
+}

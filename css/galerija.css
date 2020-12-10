@@ -1,0 +1,72 @@
+#galerija a{
+    color:rgba(204, 158, 43, 0.801);
+}
+
+#galerija{
+    border-bottom: 3px rgba(204, 158, 43, 0.801) solid;
+}
+
+#galerija a:hover{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.glavni div {
+    background-color: rgba(248, 235, 219, 0.76);
+    margin: 2px;
+}
+
+#wrap {
+    background-color: rgba(248, 235, 219, 0.76);
+}
+
+.glavni {
+    display: grid;
+    grid-template-rows: (1fr 1fr);
+}
+
+.gornji {
+    position: relative;
+}
+
+.gornji .naslov {
+    position: absolute;
+}
+
+#Velika {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.naslov {
+    font-size: 3rem;
+    font-family: serif;
+    margin-left: 15px;
+    color: rgb(88, 80, 80);
+}
+
+.slike {
+    background-color: rgba(248, 235, 219, 0.76);
+    margin: 10px 50px;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.slike img {
+    transition: 1s;
+    padding: 6px;
+}
+
+
+
+.slike img:hover {
+    filter: saturate(100%);
+    transform: scale(1.1);
+}
+
+#naslovnaSlika{
+    border-radius: 10px;
+    border: 13px white solid;
+}

@@ -1,0 +1,147 @@
+#kontakt a{
+    color: rgba(204, 158, 43, 0.801);
+}
+
+#kontakt{
+    border-bottom: 3px rgba(204, 158, 43, 0.801) solid;
+}
+
+#kontakt a:hover{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.roditelj {
+    background-image: url("https://i.pinimg.com/originals/77/88/3e/77883e5c378375e422fc0ccb273f6b44.jpg");
+}
+
+#prviId p {
+    font-family: serif;
+    font-size: 3.0em;
+    color: rgb(29, 13, 13);
+    display: flex;
+    align-items: stretch;
+}
+
+#p{
+    font-family: serif;
+}
+
+#prviId p2 {
+    font-size: 2.0em;
+}
+
+#prviId p3 {
+    font-size: 2.0em;
+    color: rgb(95, 95, 95);
+}
+
+#prviId p4 {
+    font-size: 1.5em;
+    color: rgb(29, 13, 13);
+}
+
+#prviId p5 {
+    font-size: 1.2em;
+    color: rgb(49, 48, 48);
+}
+
+#prviId p6 {
+    color: rgb(29, 13, 13);
+}
+
+input[type="text"], textarea, select{
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 7px rgba(255, 197, 121, 0.747) solid;
+    padding: 15px;
+    min-width: 30px;
+}
+
+#dugme input[type="submit"]{
+    font-family: serif;
+    color: rgb(255, 229, 198);
+    background-color: rgba(192, 134, 59, 0.959);
+    border-radius: 30px;
+    font-size: medium;
+    width: 20%;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#dugme input[type="submit"]:hover{
+    transition: 0,5s;
+    font-size: large;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus{
+    outline: none;
+    border: 7px rgb(255, 197, 121) solid;
+}
+
+select{
+    padding: 7px;
+}
+
+/* span{
+    cursor: pointer;
+    display: inline-block;
+    
+    transition: 0.5s;
+}
+
+#dugme span:after {
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+#dugme:hover span{
+    padding-right: 25px;
+}
+  
+#dugme:hover span:after {
+    opacity: 1;
+    right: 0;
+  } */
+
+
+select {
+    width: 12%;
+}
+
+#prviId {
+    flex: 2;
+    background-color: rgba(255, 226, 173, 0.753);
+    padding: 40px 40px 40px 120px;
+}
+
+.roditelj {
+    padding: 40px;
+    background-color: rgb(219, 182, 112);
+}
+
+.roditelj div {
+    height: 8vh;
+}
+
+#wrap1 {
+    display: flex;
+    height: 100%;
+}
+
+.roditelj {
+    flex: 1;
+}
+
+.roditelj div {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(95, 83, 83);
+    font-size: 1.0em;
+}

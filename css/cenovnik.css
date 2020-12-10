@@ -1,0 +1,114 @@
+#cenovnik a{
+    color: rgba(204, 158, 43, 0.801);
+    margin-bottom: 0px;
+}
+
+#cenovnik{
+    border-bottom: 3px rgba(204, 158, 43, 0.801) solid;
+}
+
+#cenovnik a:hover{
+    text-decoration: none;
+    font-size: x-large;
+}
+
+/*--------------------------------------------------------*/
+
+header{
+    background-image: url("https://i.pinimg.com/originals/77/88/3e/77883e5c378375e422fc0ccb273f6b44.jpg");
+   
+    background-repeat: repeat;
+    
+    
+    font-family: serif;
+}
+
+
+#naslovCenovnika{
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.945);
+    
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.cenovnikTabela{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 10px;
+    border-color: rgba(245, 245, 245, 0.945);
+    border-style: solid;
+}
+
+
+.nazivUsluge:focus{
+    border: 2px rgba(255, 217, 122, 0.651) solid;
+    background-color: rgb(253, 224, 156);
+}
+
+.nazivUsluge {
+    transition: all 0,5s;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: x-large;
+    font-style: italic;
+    background-color: rgb(252, 231, 184);
+    border: 2px rgb(253, 217, 125) solid;
+    font-family: serif;
+    color: rgba(32, 32, 32, 0.74);
+}
+
+.nazivUsluge span {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+    padding: 5px;
+
+  }
+  
+.nazivUsluge span:after {
+    content: '\00bb';
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    padding: -20px;
+    transition: 0.5s;
+}
+  
+.nazivUsluge:hover span {
+    padding-right: 25px;
+}
+  
+.nazivUsluge:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.nazivUsluge:hover{
+    font-size: 30px;
+    border: 2px rgba(255, 217, 122, 0.651) solid;
+    background-color: rgb(253, 224, 156);
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+th, td{
+    width: 30%;
+}
+
+th, td, tr{
+    padding: 10px;
+    border: 1px rgba(255, 217, 122, 0.486) solid;
+    background-color: rgba(245, 245, 245, 0.582);
+}
